@@ -1,0 +1,72 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.d-flex {
+  margin: auto;
+  width: 25vw;
+  height: 7vh;
+}
+
+.d-flex input {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.d-flex svg {
+  position: absolute;
+  right: 50vw;
+  margin-top: 20px;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.signupBtn {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  width: 10vw;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.signupBtn:hover {
+  background-color: transparent !important;
+  color: black;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.hove :hover {
+  border-bottom: 5px solid black;
+}
+
+.navbar-nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+  .form-control {
+    display: none;
+  }
+  .bi {
+    display: none;
+  }
+  .signupBtn {
+    width: 30vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
