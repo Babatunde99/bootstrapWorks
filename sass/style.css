@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat Alternates", sans-serif;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
 .d-flex {
@@ -68,5 +69,52 @@ body {
   .signupBtn {
     width: 30vw;
   }
+}
+
+.row {
+  margin: auto;
+}
+
+.learnIT {
+  padding-top: 90px;
+}
+
+.learnIT h1 {
+  font-size: 60px;
+}
+
+.learnIT p {
+  color: #888888;
+  font-size: 22px;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.learnIT .signupB {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  width: 18vw;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.learnIT .signupB:hover {
+  background-color: transparent !important;
+  color: black;
+}
+
+.img .girlImage {
+  position: relative;
+}
+
+.img .circleImg {
+  position: absolute;
+  z-index: -1;
+  top: -10vw;
+  right: -15vw;
 }
 /*# sourceMappingURL=style.css.map */

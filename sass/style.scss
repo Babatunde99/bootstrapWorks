@@ -1,22 +1,22 @@
 body {
   font-family: "Montserrat Alternates", sans-serif;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 .d-flex {
   margin: auto;
   width: 25vw;
   height: 7vh;
-  input{
-      border: 1px solid black;
-      border-radius: 10px;
+  input {
+    border: 1px solid black;
+    border-radius: 10px;
   }
- svg{
-     position: absolute;
-     right: 50vw;
-     margin-top: 20px;
- }
-
+  svg {
+    position: absolute;
+    right: 50vw;
+    margin-top: 20px;
   }
+}
 
 .bg-light {
   background-color: transparent !important;
@@ -51,14 +51,58 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 990px){
-    .form-control{
-        display: none;
+@media screen and (max-width: 990px) {
+  .form-control {
+    display: none;
+  }
+  .bi {
+    display: none;
+  }
+  .signupBtn {
+    width: 30vw;
+  }
+}
+
+.row {
+  margin: auto;
+}
+.learnIT {
+  padding-top: 90px;
+  h1 {
+    font-size: 60px;
+  }
+  p {
+    color: #888888;
+    font-size: 22px;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .signupB {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    width: 18vw;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+
+    &:hover {
+      background-color: transparent !important;
+      color: black;
     }
-        .bi{
-            display: none;
-        }
-        .signupBtn{
-            width: 30vw;
-        }
+  }
+}
+  .img{
+    .girlImage {
+      position: relative;
     }
+    .circleImg {
+      position: absolute;
+      z-index: -1;
+      top: -10vw;
+      right: -15vw;
+    }
+  }
+
