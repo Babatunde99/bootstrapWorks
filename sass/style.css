@@ -59,6 +59,24 @@ body {
           align-items: center;
 }
 
+@media only screen and (min-width: 990px) {
+  .girlImgMobile {
+    display: none;
+  }
+  .getstatBtn {
+    background-color: black;
+    color: white;
+    width: 17vw;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .getstatBtn:hover {
+    background-color: transparent;
+    color: black;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .form-control {
     display: none;
@@ -68,6 +86,25 @@ body {
   }
   .signupBtn {
     width: 30vw;
+  }
+  .girlImage {
+    display: none;
+  }
+  .circleImg {
+    display: none;
+  }
+  .getstatBtn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .girlImgMobile {
+    width: 80vw;
+    padding-top: 40px;
   }
 }
 
@@ -83,6 +120,12 @@ body {
   font-size: 60px;
 }
 
+@media screen and (max-width: 990px) {
+  .learnIT h1 {
+    font-size: 8vw;
+  }
+}
+
 .learnIT p {
   color: #888888;
   font-size: 22px;
@@ -91,20 +134,13 @@ body {
   padding-bottom: 30px;
 }
 
-.learnIT .signupB {
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  width: 18vw;
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid black;
-  text-align: center;
-}
-
-.learnIT .signupB:hover {
-  background-color: transparent !important;
-  color: black;
+@media screen and (max-width: 990px) {
+  .learnIT p {
+    color: #888888;
+    font-size: 4vw;
+    line-height: 1.5;
+    width: 80vw;
+  }
 }
 
 .img .girlImage {

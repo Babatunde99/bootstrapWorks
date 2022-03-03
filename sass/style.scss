@@ -51,6 +51,24 @@ body {
   align-items: center;
 }
 
+@media only screen and (min-width: 990px) {
+  .girlImgMobile {
+    display: none;
+  }
+  .getstatBtn {
+    background-color: black;
+    color: white;
+    width: 17vw;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    &:hover {
+      background-color: transparent;
+      color: black;
+    }
+  }
+}
+
 @media screen and (max-width: 990px) {
   .form-control {
     display: none;
@@ -61,6 +79,25 @@ body {
   .signupBtn {
     width: 30vw;
   }
+  .girlImage {
+    display: none;
+  }
+  .circleImg {
+    display: none;
+  }
+  .getstatBtn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .girlImgMobile{
+      width: 80vw;
+      padding-top: 40px;
+  }
 }
 
 .row {
@@ -70,6 +107,9 @@ body {
   padding-top: 90px;
   h1 {
     font-size: 60px;
+    @media screen and (max-width: 990px) {
+      font-size: 8vw;
+    }
   }
   p {
     color: #888888;
@@ -77,32 +117,22 @@ body {
     line-height: 1.5;
     padding-top: 20px;
     padding-bottom: 30px;
-  }
-  .signupB {
-    font-size: 15px;
-    color: white;
-    background-color: black;
-    width: 18vw;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid black;
-    text-align: center;
-
-    &:hover {
-      background-color: transparent !important;
-      color: black;
+    @media screen and (max-width: 990px) {
+      color: #888888;
+      font-size: 4vw;
+      line-height: 1.5;
+      width: 80vw;
     }
   }
 }
-  .img{
-    .girlImage {
-      position: relative;
-    }
-    .circleImg {
-      position: absolute;
-      z-index: -1;
-      top: -10vw;
-      right: -15vw;
-    }
+.img {
+  .girlImage {
+    position: relative;
   }
-
+  .circleImg {
+    position: absolute;
+    z-index: -1;
+    top: -10vw;
+    right: -15vw;
+  }
+}
